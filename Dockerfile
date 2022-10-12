@@ -1,2 +1,5 @@
-FROM golang:latest
+FROM golang:onbuild
 
+
+
+CMD ["main/app"]
